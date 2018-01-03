@@ -1,0 +1,98 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* Set padding to keep content from hitting the edges 
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+*/
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.header {
+    background-color: #222;
+    height: 17em;
+    padding: 20px 0px;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .header {
+    background-color: #222;
+    height: 21em;
+    }
+}
+.intro {
+    font-size: medium;
+    margin: 15px 25px;
+}
+
+.lead {
+    margin: 20px 1.8em;
+}
+
+.lower-content {
+    width: 96%;
+    margin: 3em auto;
+    font-size: 14px;
+}
+
+.lower-content p {
+    text-align: justify;
+}
+
+.logo {
+    /*animation: logo-spin forwards 0.3s ease-in;*/
+    /*border: 5px solid #61DAFB;*/
+}
+
+/*@keyframes logo-spin {
+    from { transform: scale(0); }
+    to { transform: scale(1)}
+}*/
+
+ul {
+    text-align: left;
+    padding-left: 1em;
+}
+
+.lower-div {
+    padding: 0 20px;
+}
+
+.about {
+    /*text-align: left;*/
+    /*margin: 0 auto;*/
+    padding: 2em 2em;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+
+/*@media (min-width: 1200px) {
+    .about {
+        margin: 2em 20em;
+    }
+}
+
+@media (min-width: 992px) {
+    .about {
+        margin: 2em 12em;
+    }
+}*/

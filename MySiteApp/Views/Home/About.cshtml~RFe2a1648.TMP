@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title</h2>
+
+<div class="row">
+    <div class="col-md-12 lower-content">
+        <div class="col-md-4 lower-div">
+            <h3>Now ... </h3>
+            <p>
+                I currently work as a developer maintaining ASP and .NET web applications, but I'm fairly agnostic regarding technology
+                and try to always explore what is the best approach for a project and why. My work is pretty varied, so in a typical day
+                I may handle anything from working on PayPal integration to troubleshooting a classic ASP DLL.
+            </p>
+            <p>
+                I am also currently a student
+                working towards a master's degree in Computer Science with an expected completion date in the Fall of 2018.
+            </p>
+        </div>
+        <div class="col-md-4 lower-div">
+            <h3>Previously ... </h3>
+            <p>
+                Previously, I had the good fortune to have worked as a systems administrator in a mixed Windows, Unix, and Mac environment for a number of years.
+                That experience has helped me as a developer in understanding networking, protocols, and tools that are useful for debugging and troubleshooting
+                networking issues. I also performed a good deal of application and end-user support which was also a great learning experience.
+     
+            </p>
+        </div>
+        <div class="col-md-4 lower-div">
+            <h3>A long time ago ... </h3>
+            <p>
+                Before all of that, I worked in graphic design building Flash animations, web graphics, print catalogs, and front-end HTML and CSS work. I am very
+                comfortable using Adobe Creative Cloud tools including Photoshop, Illustrator, and InDesign.
+            </p>
+            <p>
+                When I'm not in the land of bits I love running, playing and building guitars, and hanging out with my kids.
+            </p>
+        </div>
+    </div>
+</div>
+
+@*<div class="row">
+        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 text-left about">
+            <p>
+                I currently work as a developer maintaining ASP and .NET web applications, but I'm fairly agnostic regarding technology
+                and try to always explore what is the best approach for a project and why. My work is pretty varied, so in a typical day
+                I may handle anything from working on PayPal integration to troubleshooting a classic ASP DLL. I am also currently a student
+                working towards a master's degree in Computer Science with an expected completion date in the Fall of 2018.
+            </p>
+            <p>
+                Previously, I had the good fortune to
+                have worked as a systems administrator in a mixed Windows, Unix, and Mac environment for a number of years which has helped
+                me as a developer in understanding networking, protocols, and tools and approaches that are handy for debugging and troubleshooting.
+            </p>
+            <p>
+                Before all of that, I worked in graphic design building Flash animations, web graphics, print catalogs, and front-end HTML and CSS work. I am very
+                comfortable using Adobe Creative Cloud tools including Photoshop, Illustrator, and InDesign.
+            </p>
+            <p>
+                When I'm not in the land of bits I love running, playing and building guitars, and hanging out with my kids.
+            </p>
+        </div>
+    </div>*@
+
+
+
